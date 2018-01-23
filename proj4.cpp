@@ -19,7 +19,7 @@ void getVendorInfo(vendor & curVendor, collection & vendorList);
 int main()
 {
 	char command;
-	char fileName[] = "data.dat";
+	char fileName[] = "data/data.dat";
 	collection vendors(fileName);
 
 	displayMenu();
